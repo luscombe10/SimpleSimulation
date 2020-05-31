@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SimpleSimulation/1.0.0": {
+        "dependencies": {
+          "MathNet.Numerics": "4.11.0"
+        },
+        "runtime": {
+          "SimpleSimulation.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.11.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.11.0.0",
+            "fileVersion": "4.11.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleSimulation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/4.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nmr86AZMGgLprxygcew8Q2BOlPbSYGIkponJMRBoO+CVohkE/CqYJ2KKMThVJUJ0obJxoYI7agCRe61XDVgZuw==",
+      "path": "mathnet.numerics/4.11.0",
+      "hashPath": "mathnet.numerics.4.11.0.nupkg.sha512"
+    }
+  }
+}
